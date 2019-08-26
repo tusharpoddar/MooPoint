@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginRight="15dp"
+        android:textSize="19sp"
+        android:text="What we do? MooPoint, under its parent organisation 'Prerna Pyaoo', is the one stop solution for all those neglected astray animals in dire need of help. Of course, borrowing from Joey - the adorable FRIEND - we have named ourselves as MooPoint because of the emphasis given on sheltering the cows initially. Since then, we have come a long way to providing the comfort for other street animals like the dogs and the cats. Since unfed and loitering animals are our priority, we pride ourselves in providing immediate help regarding them when you request it from your convenient sofa. Not only hunger, we take care of the effect of scorching effect on the animals by installing water tanks for them."/>
+</LinearLayout>

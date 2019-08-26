@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moopoint.Animal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose the animal for which the request has to be made."
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp"
+            >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ad"
+    android:textColor="#00ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn_dog"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/back"
+                android:layout_marginTop="50dp"
+                android:textColor="#fff"
+                android:text="DOG"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/btn_cat"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:text="CAT"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            android:id="@+id/btn_cow"
+            android:textColor="#fff"
+            android:text="COW"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+</RelativeLayout>

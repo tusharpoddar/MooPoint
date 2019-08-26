@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.moopoint.RequestHelp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edit_requset"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Submit request"
+            android:gravity="center"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/Addd"
+                android:layout_marginTop="10dp"
+                android:textColor="#00ffffff"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/a"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:weightSum="10">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:layout_weight="7"
+                android:background="@drawable/back"
+                android:id="@+id/btn_sumt"/>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="90"-->
+            <!--android:orientation="horizontal">-->
+            <!--<CheckBox-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="Would you like us to call you"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_marginLeft="20dp"/>-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/btn_sumt"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:background="@drawable/borderdsign"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="Submit"/>-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

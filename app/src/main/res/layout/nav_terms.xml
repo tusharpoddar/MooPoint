@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Terms and Conditions"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. RIGHTS AS AN ADMINISTRATOR"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:textSize="19sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="The user is obliged to use the app of MOOPOINT strictly as per the TERMS and CONDITIONS of MOOPOINT. In case of any violation of the terms or abuse of the app in any manner whatsoever,MOOPOINT has the sole discretion to not respond to the request made by your email in future. MOOPOINT has no ownership rights to the information posted by any user on their requests. The use of MOOPOINT is for the legally ,morally and socially acceptable purposes only .
+The users themselves are responsibe for the security of their personal data.
+"
+        android:textStyle="italic"
+        android:textSize="19sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. GENERAL"
+        android:textSize="19sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="* Our policy of making the services are only available from 6AM to 11PM. Request made at a time other than this will be shifted to the next day."
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="19sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="* Making unnecessary requests will lead to blacklisting of the user. Genuine request are welcomed and will be taken care by us as soon as possible."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. LIABILITY"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="The MOOPOINT app shall not be held responsible to any user for any loss of profits or consequential, special, punitive, indirect, or incidental damages relating to, arising out of, or in any way in connection with their terms or their services. With prejudice, it is made clear that the liability of app MOOPOINT will not exceed more than one thousand Indian rupees (rupees 1000/only) on account of claim for any damages in any account and in any manner. "/>
+</LinearLayout>
+</ScrollView>
